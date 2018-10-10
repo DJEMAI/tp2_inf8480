@@ -1,0 +1,32 @@
+recoit la commande sous la console (le controleur)
+diviser la charge de travail (le createur)
+donner la charge de travail aux serveurs (le createur)
+recoit la reponse (le createur)
+afficher la reponse au client (le controleur)
+
+
+les classes
+	Controleur
+	RepertoireNoms
+	Travail
+	Communications
+description de chaque classe:
+	Controleur
+		recupere la requete du client
+		recupere la capacite des serveurs
+		diviser le travail selon la capacite des serveurs
+		communique avec les serveurs(donnee le travail a faire)
+		recoit la reponse des serveurs
+		afficcher le resultat au client
+	repertoireNoms
+		recupere les informations des serveurs
+		authentifier repartiteur
+	Travail
+		recoit le total des donnees a traiter
+		diviser le travail selon les serveurs
+	Communications
+		connecter aux serveurs
+		donner les donner a traiter a chaque serveur
+		recoit les resultats des serveurs
+			
+		 
